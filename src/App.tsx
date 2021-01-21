@@ -68,7 +68,7 @@ const App: React.FC = () => {
                     <span style={paddingStyle}><Timer.Seconds /> seconds</span>
                     <span style={paddingStyle}><Timer.Milliseconds /> milliseconds</span>
                 </div>
-                <div>{timerState}</div>
+                <div style={paddingStyle}>{timerState}</div>
                 <br />
                 <div>
                     <button style={marginStyle} onClick={start}>Start</button>
